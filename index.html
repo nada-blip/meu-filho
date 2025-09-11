@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Moderno do Rei</title>
+    <style>
+        /* Estilo global */
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f0f5;
+            color: #333;
+        }
+
+        /* Cabeçalho */
+        header {
+            background: linear-gradient(90deg, #4b0082, #8a2be2);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+
+        /* Navegação */
+        nav {
+            background: #6a0dad;
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffdd57;
+        }
+
+        /* Seções */
+        main {
+            padding: 40px 20px;
+        }
+        section {
+            max-width: 900px;
+            margin: 0 auto 60px auto;
+        }
+        h2 {
+            color: #4b0082;
+            border-bottom: 3px solid #8a2be2;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        /* Projetos */
+        .projeto {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin: 20px 0;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .projeto:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+
+        .projeto img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        /* Contato */
+        .contato-info p {
+            margin: 10px 0;
+        }
+
+        /* Rodapé */
+        footer {
+            background: #4b0082;
+            color: white;
+            text-align: center;
+            padding: 25px 20px;
+        }
+
+        /* Botão moderno */
+        .botao {
+            display: inline-block;
+            padding: 10px 25px;
+            background: #8a2be2;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .botao:hover {
+            background: #4b0082;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Portfólio do Mateus Rocha</h1>
+    <p>Explorando ideias e projetos incríveis</p>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<main>
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Eu sou o Mateus Rocha, criador de sites, designer e apaixonado por tecnologia. Este portfório mostra alguns dos meus trabalhos e projetos mais recentes.</p>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+
+        <div class="projeto">
+            <h3>Projeto 1: Beba água</h3>
+            <img src="img/foto água.png" alt="Projeto 1">
+            <p>Criação de um site institucional moderno, responsivo e visualmente atrativo.</p>
+            <a href="https://nada-blip.github.io/projeto-beba-agua/" class="botao">Ver Projeto</a>
+        </div>
+
+        <div class="projeto">
+            <h3>Projeto 2: Jogos famosos</h3>
+            <img src="img/foto jogos.png" alt="Projeto 2">
+            <p>Os melhores jogos da atualidade estão aqui.</p>
+            <a href="https://nada-blip.github.io/jogos/" class="botao">Ver Projeto</a>
+        </div>
+
+        <div class="projeto">
+            <h3>Projeto 3: </h3>
+            <img src="img/foto universo.png" alt="Projeto 3">
+            <p>Conheça o universo como você jamais viu!!.</p>
+            <a href="https://nada-blip.github.io/galaxia/" class="botao">Ver Projeto</a>
+        </div>
+
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <div class="contato-info">
+            <a href="mailto: rocha.mateus0408@gmail.com">Email:rocha.mateus0408@gmail.com</a>
+            <br>
+           <a href="tel:+5511938007854">Telefone: (11) 9380-07854</a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 Rei. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
